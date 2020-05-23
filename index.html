@@ -1,131 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="section.css">
-    <title>Leonardo Bussi</title>
-</head>
-<body>
-    
-        <h1 class="title" >Leonardo Bezerra Bussi</h1> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./aos.css">
+        <link rel="stylesheet" type="text/css" href="section.css">
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <title>Leonardo Bussi</title>
+    </head>
+    <body>
         
-    <div class="conteiner">
-        <div class="form">
+        <!--<h1 class="title" >Leonardo Bezerra Bussi</h1> -->
+        <header class="navbar">
+            <h3 style="text-align: center;">oie pessoial</h3>
+        </header>
+        <section style="height: 550px;  padding-top: 50px;">
             
-            <div class="links">
-                <a target="_blank" href="https://gitlab.com/leonardobussi">GitLab</a>
-                <a target="_blank" href="https://github.com/leonardobussi">GitHub</a>
-                <a target="_blank" href="https://www.linkedin.com/in/leonardobbussi/">linkedin</a>
-                <a target="_blank" href="https://www.facebook.com/leonardo.bbussi/">Facebook</a>
-                <a target="_blank" href="https://www.instagram.com/dev_bussi/">Instagram</a>
+            <div class="conteiner">
+                <div class="form">
+                    <div class="links">
+                        <a target="_blank" href="https://gitlab.com/leonardobussi">GitLab</a>
+                        <a target="_blank" href="https://github.com/leonardobussi">GitHub</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/leonardobbussi/">linkedin</a>
+                        <a target="_blank" href="https://www.facebook.com/leonardo.bbussi/">Facebook</a>
+                        <a target="_blank" href="https://www.instagram.com/dev_bussi/">Instagram</a>
+                        <a target="_blank" href="https://www.instagram.com/dev_bussi/">Contato</a>
+                    </div>
+                </div>
             </div>
+
+        </section> 
+
+
+        <!--section github-->
+        <div style="background-image: linear-gradient(to right, #8c5554, #8c00ff)" class="section">
+            
+            <div style="text-align: center;">
+                <h3>scroll down</h3> 
+                <span class="material-icons">
+                keyboard_arrow_down
+                </span>
+            </div>
+            
+
+
+            <h1 data-aos="fade-right" style="padding-top: 40px;">GitHub</h1>
+            <p data-aos="fade-right" class="p">Projetos Populares</p>
+
+            <div id="app">
+                <main>
+                    <ul>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>estoque_produtos_laravel</strong>
+                                    <span>sistema de estoque de produtos <br>
+                                        usando Laravel Framework. 
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://github.com/leonardobussi/estoque_produtos_laravel">Acessar Github</a>
+                        </li>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>ProPlugin_podcast</strong>
+                                    <span>sistema web de podcast com ReactJS <br>
+                                        e Laravel.
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://github.com/leonardobussi/ProPlugin_podcast">Acessar Github</a>
+                        </li>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>java_web_portaria</strong>
+                                    <span>projeto java web para axilio no cadastro <br>
+                                        de condôminos de um condominio. 
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://github.com/leonardobussi/java_web_portaria">Acessar Github</a>
+                        </li>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>soma_produto_python</strong>
+                                    <span>script matematico sobre equação do segundo<br>
+                                            grau. 
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://github.com/leonardobussi/soma_produto_python">Acessar Github</a>
+                        </li>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>leonardobussi.github.io</strong>
+                                    <span>repositorio dessa page <br>
+                                        hopedada no Github pages.
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://github.com/leonardobussi/leonardobussi.github.io">Acessar Github</a>
+                        </li>
+
+
+                    </ul>
+                </main>
+            </div>
+
+
+            <!--section gitlab-->
+
+
+            <h1 data-aos="fade-right" style="padding-top: 40px;" >GitLab</h1>
+            <p data-aos="fade-right" class="p">Projetos Populares</p>
+
+            <div id="app">
+                <main>
+                    <ul>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>portaria_condominio</strong>
+                                    <span>projeto de autenticacao de moradores<br> 
+                                        de condominio com duas senha 1º senha <br>
+                                        entra normal e a 2º senha é para caso <br>
+                                        de assalto, assim dispara um alerta <br>
+                                        silencioso para o condominio todo.
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://gitlab.com/leonardobussi/portaria_condominio">Acessar GitLab</a>
+                        </li>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>CondSystem (Contribuição)</strong>
+                                    <span>projeto de autenticacao de moradores<br> 
+                                        de condominio com duas senha 1º senha <br>
+                                        entra normal e a 2º senha é para caso <br>
+                                        de assalto, assim dispara um alerta <br>
+                                        silencioso para o condominio todo.
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://gitlab.com/BDAg/condsystem">Acessar GitLab</a>
+                        </li>
+
+                        <li data-aos="fade-right" class="dev-item">
+                            <header>
+                                <div class="user-info">
+                                    <strong>Projeto-DTX-SPSP (Contribuição)</strong>
+                                    <span>aplicativo mobile para gerenciamento <br>
+                                        e supervisão de rotinas e tarefas <br>
+                                        realizadas por colaboradores.
+                                    </span>
+                                </div>
+                            </header>
+                            <a href="https://gitlab.com/BDAg/Projeto-DTX-SPSP">Acessar GitLab</a>
+                        </li>
+
+
+                    </ul>
+                </main>
+            </div>
+
         </div>
-    </div>
-    
-    <!--section github-->
-    <div style="background-color:  #3f9ec0;" class="section">
-    <h1>GitHub</h1>
-    <p class="p">Projetos Populares</p>
-    <div id="app">
-        <main>
-          <ul>
 
-            <li  class="dev-item">
-                <header>
-                    <div class="user-info">
-                        <strong>estoque_produtos_laravel</strong>
-                        <span>sistema de estoque de produtos <br>
-                            usando Laravel Framework. 
-                        </span>
-                    </div>
-                </header>
-                <a href="https://github.com/leonardobussi/estoque_produtos_laravel">Acessar Github</a>
-            </li>
-
-            <li  class="dev-item">
-                <header>
-                    <div class="user-info">
-                        <strong>ProPlugin_podcast</strong>
-                        <span>sistema web de podcast com ReactJS <br>
-                            e Laravel.
-                        </span>
-                    </div>
-                </header>
-                <a href="https://github.com/leonardobussi/ProPlugin_podcast">Acessar Github</a>
-            </li>
-
-            <li  class="dev-item">
-                <header>
-                    <div class="user-info">
-                        <strong>java_web_portaria</strong>
-                        <span>projeto java web para axilio no cadastro <br>
-                            de condôminos de um condominio. 
-                        </span>
-                    </div>
-                </header>
-                <a href="https://github.com/leonardobussi/java_web_portaria">Acessar Github</a>
-            </li>
-    </div>
-</div>
-
-<!--section gitlab-->
-
-<div style="background-color: #41096e;" class="section">
-    <h1>GitLab</h1>
-    <p class="p">Projetos Populares</p>
-    <div id="app">
-        <main>
-          <ul>
-
-            <li  class="dev-item">
-                <header>
-                    <div class="user-info">
-                        <strong>portaria_condominio</strong>
-                        <span>projeto de autenticacao de moradores<br> 
-                            de condominio com duas senha 1º senha <br>
-                            entra normal e a 2º senha é para caso <br>
-                            de assalto, assim dispara um alerta <br>
-                            silencioso para o condominio todo.
-                        </span>
-                    </div>
-                </header>
-                <a href="https://gitlab.com/leonardobussi/portaria_condominio">Acessar GitLab</a>
-            </li>
-
-            <li  class="dev-item">
-                <header>
-                    <div class="user-info">
-                        <strong>CondSystem (Contribuição)</strong>
-                        <span>projeto de autenticacao de moradores<br> 
-                            de condominio com duas senha 1º senha <br>
-                            entra normal e a 2º senha é para caso <br>
-                            de assalto, assim dispara um alerta <br>
-                            silencioso para o condominio todo.
-                        </span>
-                    </div>
-                </header>
-                <a href="https://gitlab.com/BDAg/condsystem">Acessar GitLab</a>
-            </li>
-
-            <li  class="dev-item">
-                <header>
-                    <div class="user-info">
-                        <strong>Projeto-DTX-SPSP (Contribuição)</strong>
-                        <span>aplicativo mobile para gerenciamento <br>
-                            e supervisão de rotinas e tarefas <br>
-                            realizadas por colaboradores.
-                        </span>
-                    </div>
-                </header>
-                <a href="https://gitlab.com/BDAg/Projeto-DTX-SPSP">Acessar GitLab</a>
-            </li>
-
-
-          </ul>
-        </main>
-    </div>
-</div>
-</body>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="./aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>
