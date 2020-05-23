@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-.dev-item {
-    max-width: 50%;
-}
 body{
     background-image: url(./c.jpg);
     color: #fff;
