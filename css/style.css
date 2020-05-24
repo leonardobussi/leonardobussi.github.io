@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(./c.jpg);
+    background-image: url(../img/c.jpg);
     color: #fff;
     background-attachment: fixed;
     background-size: cover;
@@ -29,7 +29,7 @@ body{
     width: 100%;
     padding: 20px;
     border-radius: 5px;
-    background-image: url(./ter.png);
+    background-image: url(../img/ter.png);
     height: 390px;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
                 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 

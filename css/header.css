@@ -10,6 +10,9 @@
     color: rgb(25, 3, 46);
     text-align: center;
 }
+.h6-top:hover {
+    color: #5443;
+}
 @media screen and (max-width: 331px) {
     .header-top h1 {
         font-size: 20px;
