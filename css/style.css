@@ -60,6 +60,6 @@ body{
         padding: 0 10%;
     } 
     .dev-item {
-        max-width: 100%;
+        /*max-width: 100%;*/
     }     
 }
