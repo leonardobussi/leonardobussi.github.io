@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(../img/c.jpg);
+    background-image: url(../img/a.jpg);
     color: #fff;
     background-attachment: fixed;
     background-size: cover;
@@ -34,7 +34,7 @@ body{
     flex: 1;
     max-width: 300px;
     height: 140px;
-    background-color: #fff;
+    background-color:  rgb(13, 9, 223);
     margin: 20px;
     cursor: pointer;
     display: flex;
@@ -47,7 +47,7 @@ body{
 
 .icon{
     font-size: 32px;
-    color: #ea8685;
+    color: #e3d9ec;
     transition: .3s linear;
 }
 
@@ -68,12 +68,12 @@ body{
 .card-content h3{
     top: 20px;
     text-transform: uppercase;
-    color: #ea8685;
+    color: #ffffff;
 }
 
 .card-content span{
     bottom: 20px;
-    color: #999;
+    color: rgb(223, 223, 223);
     font-weight: 500;
 }
 

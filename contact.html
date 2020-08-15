@@ -8,20 +8,27 @@
     <link rel="stylesheet" href="./css/header.css">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>LeonardoBussi</title>
 </head>
 <body>
     <header class="header-top">
-        <a style="color: #000;" href="https://leonardobussi.github.io/">
+        <a style="color: #fff;" href="/">
             <h6 style="padding: 10px 0 0 5px;" class="material-icons h6-top" >
                 keyboard_backspace
             </h6>
         </a>
     </header>
 
-    <div class="contact-info">
-        <div class="card">
+    
+
+    <div  class="contact-info">
+        <div 
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+        class="card">
             <i class="icon fas fa-envelope"></i>
             <div class="card-content">
                 <h3>Email</h3>
@@ -30,7 +37,11 @@
             </div>
         </div>
 
-        <div class="card">
+        <div 
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+        class="card">
             <i class="icon fas fa-phone"></i>
             <div class="card-content">
                 <h3>Telefone</h3>
@@ -38,5 +49,12 @@
             </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
