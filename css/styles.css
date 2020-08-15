@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-html, body{
+body{
     color: #fff;
     background-color: rgb(5, 4, 10);
     display: flex;
@@ -14,7 +14,6 @@ body{
     width: 100%;
     height: 100%;
     background-image: url(../img/a.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
