@@ -3,13 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/contact.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>LeonardoBussi</title>
 </head>
@@ -21,7 +16,23 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+    }
+    .form-control {
+        background: rgba(2, 0, 0, 0);
+    }
+    .whts{
+        margin-top: 40px;
+    }
+    i a {
+        background: rgb(247, 247, 247);
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+
+    }
+    i a:hover{
+        opacity: 0.5;
+    }
 </style>
 
 		
@@ -37,7 +48,7 @@
 			<h1>Entre em contato</h1>
 		</div>
 
-		<form id="form" method="POST" action="https://formspree.io/leonardobezerrabussy@gmail.com">
+		<form  id="form" method="POST" action="https://formspree.io/leonardobezerrabussy@gmail.com">
 		    <div class="form-group">
 		    	<label>Nome</label>
 		    	<input type="text" name="name" placeholder="digite seu nome completo"  id="name" class="form-control">
@@ -51,7 +62,15 @@
 		    	<textarea name="message" id="message" class="form-control" rows="5"></textarea>
 		    </div>
 		    <div class="form-group">
-		    	<input type="submit" value="Enviar" class="btn btn-primary btn-lg">
+                <input type="submit" value="Enviar" class="btn btn-primary btn-lg">
+            </div>
+            <div class="form-group whts">
+                <i>
+                    <a href="https://wa.me/14988374395">
+                        <img src="./img/whats.png"/>
+                    </a>
+                    <span>Enviar via WhatsApp</span>
+                </i>
 		    </div>
 		</form>
 
