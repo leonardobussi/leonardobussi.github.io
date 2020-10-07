@@ -15,8 +15,11 @@ body{
     background-repeat: no-repeat;
     -webkit-font-smoothing: antialiased;
     color: #fff;
-    background-color: rgb(5, 4, 10);
+    background-color: #0dc3b4;
     height: 100vh;
+    background-attachment: fixed;
+}
+.content{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,6 +60,7 @@ body{
                 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 
                 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
     margin-bottom: 50px;
+
 }
 
 .conteiner .links {
@@ -109,6 +113,30 @@ body{
     font-size: 14px;
     
 }
+.about p a{
+    color: #0dc3b4;  
+}
+.about p a:hover{
+   color: blueviolet;
+}
+.box-linguagem{
+    width: 100%;
+    margin-top: 70px;
+    height: 20vh;
+    background-color: #6d39f2;
+}
+.box-linguagem .title{
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 800px) {
     .form {
         width: 100%;
