@@ -9,7 +9,7 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: url(../img/a.jpg);
+    background-image: url(../img/a2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body{
     margin-right: 5px;
 }
 .section-top {
-    padding-top: 13vh; 
+    padding-top: 1vh; 
     height: 550px;
 }
 .conteiner{
@@ -62,15 +62,35 @@ body{
 .conteiner .links {
     margin: 50px 0 0 10px;
 }
-
-.conteiner .links a {
+.conteiner .links .rede-box{
+    padding: 10px;
+    background-color: #0dc3b4;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.conteiner .links .rede-box .rede-box-link{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(13, 9, 223);
+    padding: 2px 5px;
+    border-radius:  5px;
+    box-shadow: 5 0 10px;
+    border: 1px solid rgb(1, 5, 8);
+}
+.conteiner .links .rede-box .rede-box-link:hover{
+    opacity: 0.9;
+    background-color: #903;
+}
+.conteiner .links .link-box {
     padding: 10px 20px;
     background-color: rgb(13, 9, 223);
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
     display: block;
-     margin-top: 20px;
+    margin-top: 20px;
 }
 
 .conteiner .links a:hover {
@@ -117,13 +137,28 @@ body{
     .form{
         margin-bottom: 70px;
     }
+    .conteiner .links .rede-box {
+        padding: 5px;
+    }
+    .conteiner .links .rede-box .rede-box-link{
+        font-size: 12px;
+    }
 }
-@media screen and (max-width: 302px) {
+@media screen and (max-width: 304px) {
     .form {
         width: 90%;
         margin: 0 10px;
     } 
     .form{
         margin-bottom: 120px;
+    }
+    .conteiner .links .rede-box {
+        display: inline-block;
+        flex: 1;
+    }
+    .conteiner .links .rede-box .rede-box-link{
+        display: inline-block;
+        flex: 1;
+        margin: 10px 0;
     }
 }
