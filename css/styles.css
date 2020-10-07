@@ -120,10 +120,10 @@ body{
    color: blueviolet;
 }
 .box-linguagem{
+    background-image: linear-gradient(to top, rgb(11, 237, 245), #6d39f2);
     width: 100%;
     margin-top: 70px;
     height: 120vh;
-    background-color: #6d39f2;
 }
 .box-linguagem .title{
     text-align: center;
