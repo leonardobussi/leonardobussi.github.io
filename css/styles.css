@@ -122,12 +122,32 @@ body{
 .box-linguagem{
     width: 100%;
     margin-top: 70px;
-    height: 20vh;
+    height: 120vh;
     background-color: #6d39f2;
 }
 .box-linguagem .title{
     text-align: center;
     padding: 30px 0;
+}
+.box-linguagem-icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-flex-icon {
+    background-color: #0dc3b4;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-linguagem-icon .box-flex-icon i {
+    font-size: 200px;
 }
 
 
@@ -142,7 +162,16 @@ body{
         width: 100%;
     } 
 }
-
+@media screen and (max-width: 671px) {
+    .box-linguagem{
+        height: 200vh;
+    }
+}
+@media screen and (max-width: 437px) {
+    .box-linguagem{
+        height: 340vh;
+    }  
+}
 @media screen and (max-width: 405px) {
     .form {
         width: 100%;
@@ -187,5 +216,8 @@ body{
         display: inline-block;
         flex: 1;
         margin: 10px 0;
+    }
+    .box-linguagem .title{
+        padding: 150px 0 30px 0;
     }
 }
