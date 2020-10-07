@@ -77,7 +77,6 @@ body{
     padding: 2px 5px;
     border-radius:  5px;
     box-shadow: 5 0 10px;
-    border: 1px solid rgb(1, 5, 8);
 }
 .conteiner .links .rede-box .rede-box-link:hover{
     opacity: 0.9;
