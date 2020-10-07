@@ -1,0 +1,138 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+background-image: url(../img/a.jpg);
+color: #fff;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.well {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 20px;
+    text-align: center;
+}
+.logo i {
+    color:deeppink
+}
+.logo span {
+    color: grey;
+}
+.alerta {
+    display: flex;
+    justify-content: center;
+
+}
+.alert1 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(243, 148, 148);
+    padding: 0 5px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.container{
+    margin-top: 70px;
+    padding: 0 20%;
+}
+form {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    flex: 1;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.247)!important;
+}
+form h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+label{
+    font-weight: 600;
+    font-size: 20px;
+}
+label strong {
+    color: darkred;
+    font-size: 22px;
+}
+input, textarea {
+    padding: 5px 10px;
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #eee;
+    font-size: 16px;
+}
+.input{
+    margin-bottom: 20px;
+}
+button {
+    margin: 30px 0;
+    border: 0;
+    color: #fff;
+    background-color: rgb(68, 248, 203);
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+button:hover {
+    opacity: 0.6;
+}
+
+@media (max-width: 683px){
+    .container{
+        margin-right: 20px;
+        padding: 0 5%;
+    }
+    input {
+        padding: 5px;
+    }
+}
+.whats{
+    margin-top: 40px;
+}
+.whats a {
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(5, 233, 127);
+    padding: 5px 0 5px 7px;
+    border-radius: 10px;
+}
+.whats a:hover{
+    opacity: 0.5;
+}
+
+.btn{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;   
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
