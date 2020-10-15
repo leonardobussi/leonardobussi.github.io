@@ -119,10 +119,9 @@ body{
    color: blueviolet;
 }
 .box-linguagem{
-    background-image: linear-gradient(to top, rgb(11, 237, 245), #6d39f2);
+    background-image: linear-gradient(to top,  rgb(11, 237, 245), #6d39f2);
     width: 100%;
     margin-top: 70px;
-    height: 120vh;
 }
 .box-linguagem .title{
     text-align: center;
@@ -148,9 +147,27 @@ body{
 .box-linguagem-icon .box-flex-icon i {
     font-size: 200px;
 }
-
-
-
+.about-landpage{
+    background-color: #002;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-landpage .text-about-landpage .name-about-title{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.about-landpage .text-about-landpage h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about-landpage .text-about-landpage h4 i {
+    color: rgb(0, 0, 0);
+    background-color: #b4ee17;
+}
 
 
 
@@ -162,14 +179,14 @@ body{
     } 
 }
 @media screen and (max-width: 671px) {
-    .box-linguagem{
-        height: 200vh;
-    }
+    
 }
 @media screen and (max-width: 437px) {
-    .box-linguagem{
-        height: 340vh;
-    }  
+
+    .about-landpage .text-about-landpage h4 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 405px) {
     .form {
