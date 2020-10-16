@@ -15,34 +15,6 @@ background-position: center;
     margin-top: 30px;
     text-align: center;
 }
-
-.logo {
-    margin-top: 20px;
-    text-align: center;
-}
-.logo i {
-    color:deeppink
-}
-.logo span {
-    color: grey;
-}
-.alerta {
-    display: flex;
-    justify-content: center;
-
-}
-.alert1 {
-    width: 50%;
-    height: 100%;
-    background-color: rgb(243, 148, 148);
-    padding: 0 5px;
-    margin-top: 50px;
-    border-radius: 5px;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-}
 .container{
     margin-top: 50px;
     padding: 0 20%;
@@ -53,6 +25,7 @@ form {
     padding: 10px;
     flex: 1;
     box-shadow: 0 .5rem 3rem rgba(11, 242, 250, 0.178)!important;
+    margin-bottom: 10px;
 }
 form h3 {
     font-size: 30px;
