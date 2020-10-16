@@ -8,12 +8,13 @@
     height: 50px;  
     z-index: 999;
 }
-.header-top .h6-top {
+.header-top a i {
+    font-size: 30px;
     margin: 5px 0 0 5px;
     color: rgb(255, 255, 255);
 }
 
-.h6-top:hover {
+.header-top a i:hover {
     color: rgb(238, 13, 69);
 }
 .header-top .h6-top i {

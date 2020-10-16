@@ -44,7 +44,7 @@ background-position: center;
     font-weight: 600;
 }
 .container{
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 0 20%;
 }
 form {
@@ -52,7 +52,7 @@ form {
     width: 100%;
     padding: 10px;
     flex: 1;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.247)!important;
+    box-shadow: 0 .5rem 3rem rgba(11, 242, 250, 0.178)!important;
 }
 form h3 {
     font-size: 30px;
@@ -100,12 +100,12 @@ button:hover {
         margin-right: 20px;
         padding: 0 5%;
     }
-    input {
+    input, textarea {
         padding: 5px;
     }
 }
 .whats{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .whats a {
     margin-right: 10px;

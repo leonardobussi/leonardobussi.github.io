@@ -66,14 +66,14 @@ body{
 .conteiner .links {
     margin: 50px 0 0 10px;
 }
-.conteiner .links .rede-box{
+.rede-box{
     padding: 10px;
     border-radius: 5px;
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
 }
-.conteiner .links .rede-box .rede-box-link{
+.rede-box-link{
     text-decoration: none;
     color: #fff;
     background-color: rgb(13, 9, 223);
@@ -81,7 +81,7 @@ body{
     border-radius:  5px;
     box-shadow: 5 0 10px;
 }
-.conteiner .links .rede-box .rede-box-link:hover{
+.rede-box-link:hover{
     opacity: 0.9;
     background-color: #903;
 }
@@ -118,75 +118,12 @@ body{
 .about p a:hover{
    color: blueviolet;
 }
-.box-linguagem{
-    background-image: linear-gradient(to top,  rgb(11, 237, 245), #6d39f2);
-    width: 100%;
-    margin-top: 70px;
-}
-.box-linguagem .title{
-    text-align: center;
-    padding: 30px 0;
-}
-.box-linguagem-icon {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.box-flex-icon {
-    background-color: #0dc3b4;
-    height: 200px;
-    width: 200px;
-    border-radius: 5px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-linguagem-icon .box-flex-icon i {
-    font-size: 200px;
-}
-.about-landpage{
-    background-color: #002;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.about-landpage .text-about-landpage .name-about-title{
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-}
-.about-landpage .text-about-landpage h4 {
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-.about-landpage .text-about-landpage h4 i {
-    color: rgb(0, 0, 0);
-    background-color: #b4ee17;
-}
-
-
-
 
 
 @media screen and (max-width: 800px) {
     .form {
         width: 100%;
     } 
-}
-@media screen and (max-width: 671px) {
-    
-}
-@media screen and (max-width: 437px) {
-
-    .about-landpage .text-about-landpage h4 {
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
 }
 @media screen and (max-width: 405px) {
     .form {
@@ -209,10 +146,7 @@ body{
     .form{
         margin-bottom: 70px;
     }
-    .conteiner .links .rede-box {
-        padding: 5px;
-    }
-    .conteiner .links .rede-box .rede-box-link{
+    .rede-box .rede-box-link{
         font-size: 12px;
     }
 }
@@ -223,17 +157,5 @@ body{
     } 
     .form{
         margin-bottom: 120px;
-    }
-    .conteiner .links .rede-box {
-        display: inline-block;
-        flex: 1;
-    }
-    .conteiner .links .rede-box .rede-box-link{
-        display: inline-block;
-        flex: 1;
-        margin: 10px 0;
-    }
-    .box-linguagem .title{
-        padding: 150px 0 30px 0;
     }
 }
