@@ -143,9 +143,6 @@ body{
     body{
         background-size: auto;
     }
-    .form{
-        margin-bottom: 70px;
-    }
     .rede-box .rede-box-link{
         font-size: 12px;
     }
@@ -155,7 +152,14 @@ body{
         width: 90%;
         margin: 0 10px;
     } 
-    .form{
-        margin-bottom: 120px;
+}
+@media screen and (max-width: 240px) {
+    .rede-box .rede-box-link{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 190px) {
+    .rede-box .rede-box-link{
+        font-size: 5px;
     }
 }
