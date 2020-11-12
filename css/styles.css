@@ -111,8 +111,38 @@ body{
     font-size: 14px;
     
 }
+.ir_baixo {
+    text-align: center;
+}
+.ir_baixo p {
+    font-size: 22px;
+}
+.ir_baixo .link-down{
+    font-size: 32px;
+    color: rgb(209, 15, 15);
+    animation-name: color_link-down;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out 0.5s;
+
+}
+@keyframes color_link-down {
+    to {
+        color: #fff;
+    }
+    from {
+        color: rgb(209, 15, 15);
+    }
+}
+.ir_baixo .link-down:hover {
+    color: rgb(107, 120, 240);
+    animation-name: none;
+    animation-delay: 0s;
+    animation-duration: 0s;
+}
 .tecnologia{
-    margin-top: 100px;
+    margin-top: 400px;
     width: 100%;
     overflow: hidden;
     background-color: #4b15e2;
@@ -147,10 +177,73 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .box-linguagem-icon .box-flex-icon i {
     font-size: 200px;
 }
+.projetos{
+    /* margin-top: 400px; */
+    width: 100%;
+    overflow: hidden;
+    background-color: #0c0c0c;
+    /* height: 100%; */
+}
+.projetos h2.title{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.box-projeto{
+    width: 100%;
+    margin-top: 70px;
+}
+.box-projeto .title{
+    text-align: center;
+    padding: 30px 0;
+}
+.box-projeto_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-projeto-flex {
+    background-color: #eee;
+    color: #000;
+    height: 170px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px;
+    
+     /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.box-projeto-flex h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.box-projeto-flex span {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(116, 116, 119);
+}
+.box-projeto-flex p {
+    margin: 5px 0 2px 0;
+    font-size: 14px;
+}
+.box-projeto-flex a {
+    color: seagreen;
+    text-decoration: none;
+}
+.box-projeto-flex a:hover{
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+
 
 @media screen and (max-width: 800px) {
     .form {
@@ -177,6 +270,13 @@ body{
     }
     .rede-box .rede-box-link{
         font-size: 12px;
+    }
+    .tecnologia{
+        margin-top: 150px;
+    }
+    .ir_baixo {
+        display: none;
+    
     }
 }
 @media screen and (max-width: 304px) {
