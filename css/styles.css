@@ -256,10 +256,13 @@ body{
     /* background-color: #fff; */
      padding-bottom: 50px;
      /* color: #000; */
+     padding: 0 20%;
 }
 .container_contato{
     margin-top: 30px;
-    padding: 0 20%;
+    /* padding: 0 20%; */
+    display: flex;
+    justify-content: center;
     
 }
 .well {
@@ -347,8 +350,7 @@ button:hover {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 } */
 @media (max-width: 683px){
-    .container_contato{
-        margin-right: 20px;
+    .contato_section{
         padding: 0 5%;
     }
     input, textarea {
