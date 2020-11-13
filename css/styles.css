@@ -21,7 +21,7 @@ body{
 }
 .content{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 .logo {
@@ -43,7 +43,11 @@ body{
 }
 .section-top {
     padding-top: 1vh; 
-    height: 550px;
+    /* height: 350px; */
+}
+.section-top_form {
+    padding-top: 1vh; 
+    /* height: 550px; */
 }
 .conteiner{
     margin-top: 50px;
@@ -107,6 +111,9 @@ body{
     font-size: 22px;
     font-weight: 600;
 }
+.about_container{
+    padding: 0 15%;
+}
 .about p {
     font-size: 14px;
     
@@ -142,7 +149,7 @@ body{
     animation-duration: 0s;
 }
 .tecnologia{
-    margin-top: 400px;
+    margin-top: 100px;
     width: 100%;
     overflow: hidden;
     background-color: #4b15e2;
@@ -208,14 +215,13 @@ body{
 }
 
 .box-projeto-flex {
-    background-color: #eee;
+    background-color: #4b15e2;
     color: #000;
-    height: 170px;
     width: 400px;
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: -5px -5px 10px;
+    border-radius: 5px;
+    /* box-shadow: -5px -3px 2px rgb(63, 119, 240); */
     
      /* display: flex;
     justify-content: center;
@@ -225,18 +231,21 @@ body{
 .box-projeto-flex h1 {
     font-size: 30px;
     font-weight: 600;
+    color: #fff;
 }
 .box-projeto-flex span {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
-    color: rgb(116, 116, 119);
+    color: #ccc;
 }
 .box-projeto-flex p {
+    font-weight: 600;
     margin: 5px 0 2px 0;
     font-size: 14px;
+    color: #fff;
 }
 .box-projeto-flex a {
-    color: seagreen;
+    color: rgb(65, 241, 141);
     text-decoration: none;
 }
 .box-projeto-flex a:hover{
