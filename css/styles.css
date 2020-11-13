@@ -252,9 +252,109 @@ body{
     opacity: 0.6;
     text-decoration: underline;
 }
+.contato_section {
+    /* background-color: #fff; */
+     padding-bottom: 50px;
+     /* color: #000; */
+}
+.container_contato{
+    margin-top: 30px;
+    padding: 0 20%;
+    
+}
+.well {
+    padding-top: 100px;
+    text-align: center;
+}
+form {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    flex: 1;
+    box-shadow: 0 .5rem 3rem rgba(11, 242, 250, 0.178)!important;
+    margin-bottom: 10px;
+}
+form h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+label{
+    font-weight: 600;
+    font-size: 20px;
+}
+label strong {
+    color: darkred;
+    font-size: 22px;
+}
+input, textarea {
+    padding: 5px 10px;
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #eee;
+    font-size: 16px;
+}
+.input{
+    margin-bottom: 20px;
+}
+button {
+    margin: 30px 0;
+    border: 0;
+    color: #fff;
+    background-color: rgb(68, 248, 203);
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+button:hover {
+    opacity: 0.6;
+}
+.whats{
+    margin-top: 10px;
+}
+.whats a {
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(5, 233, 127);
+    padding: 5px 0 5px 7px;
+    border-radius: 10px;
+}
+.whats a:hover{
+    opacity: 0.5;
+}
 
-
-
+/* .btn{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;   
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+@media (max-width: 683px){
+    .container_contato{
+        margin-right: 20px;
+        padding: 0 5%;
+    }
+    input, textarea {
+        padding: 5px;
+    }
+}
 @media screen and (max-width: 800px) {
     .form {
         width: 100%;
