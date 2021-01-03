@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="./css/aos.css">
         <title>Leonardo Bussi - portifolio</title>
     </head>
-    <body>      
+    <body onload="start();">      
         <div class="content">
                 <section class="section-top"> 
                     <div class="logo">
@@ -195,14 +195,15 @@
 
 
         <footer>
-            <p> &copy; Leonardo Bezerra Bussi - 2021 </p>
+            <p> &copy; Leonardo Bezerra Bussi - <i id="CurrentDate"></i></p>
         </footer>
 
     
     
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script src="./aos.js"></script>
+        <script src="./js/aos.js"></script>
+        <script src="./js/date.js"></script>
         <script>
             AOS.init();
         </script>
