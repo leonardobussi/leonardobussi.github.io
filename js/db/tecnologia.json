@@ -1,0 +1,76 @@
+{
+  "dados_i": [
+    {
+      "id": 1,
+      "ios": "fade-left",
+      "class": "fab fa-git-alt"
+    },
+    {
+      "id": 2,
+      "ios": "fade-up",
+      "class": "fab fa-js"
+    },
+    {
+      "id": 3,
+      "ios": "fade-left",
+      "class": "fab fa-node-js"
+    },
+    {
+      "id": 4,
+      "ios": "fade-right",
+      "class": "fab fa-html5"
+    },
+    {
+      "id": 5,
+      "ios": "fade-up",
+      "class": "fab fa-css3-alt"
+    },
+    {
+      "id": 6,
+      "ios": "fade-right",
+      "class": "fab fa-linux"
+    },
+    {
+      "id": 7,
+      "ios": "fade-left",
+      "class": "fab fa-python"
+    },
+    {
+      "id": 8,
+      "ios": "fade-up",
+      "class": "fab fa-react"
+    },
+    {
+      "id": 9,
+      "ios": "fade-right",
+      "class": "fab fa-angular"
+    }  
+  ],
+  "dados_img": [
+    {
+      "id": 1,
+      "ios": "fade-up",
+      "path_img": "img/icons/ruby.svg"
+    },
+    {
+      "id": 2,
+      "ios": "fade-left",
+      "path_img": "img/icons/rails.svg"
+    },
+    {
+      "id": 3,
+      "ios": "fade-down",
+      "path_img": "img/icons/mysql.svg"
+    },
+    {
+      "id": 4,
+      "ios": "fade-right",
+      "path_img": "img/icons/postgresql.svg"
+    },
+    {
+      "id": 5,
+      "ios": "fade-up",
+      "path_img": "img/icons/mongodb.svg"
+    }   
+  ]
+}
